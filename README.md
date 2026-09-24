@@ -23,8 +23,7 @@ Website portfolio sederhana yang dibuat untuk tugas slicing website (HTML, CSS, 
 ├── script.js
 └── README.md
 
-TAMPILAN DESKTOP (./asset/desktop.jpg) 
-
-TAMPILAN IPAD (./asset/ipad.jpg)
-
-TAMPILAN MOBILE (./asset/mobile)
+<p align="center">
+    <img src="asset/dekstop.jpg>
+    <img src="asset/ipad.jpg>
+    <img src="asset/mobile.jpg>
