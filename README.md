@@ -24,6 +24,6 @@ Website portfolio sederhana yang dibuat untuk tugas slicing website (HTML, CSS, 
 └── README.md
 
 <p align="center">
-    <img src="asset/dekstop.jpg>
-    <img src="asset/ipad.jpg>
-    <img src="asset/mobile.jpg>
+    <img src="asset/dekstop.jpg" />
+    <img src="asset/ipad.jpg" />
+    <img src="asset/mobile.jpg" />
