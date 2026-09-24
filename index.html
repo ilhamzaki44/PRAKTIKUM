@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ilham | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-inner">
+      <h1 class="logo">PORTOFOLIO.</h1>
+      <nav class="nav" id="nav">
+        <a href="#about">Tentang</a>
+        <a href="#skills">Skill</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <p class="hero-greet">Halo, saya</p>
+      <h2 class="hero-name">Moh Ilham Zaki Mubarok</h2>
+      <p class="hero-desc">Mahasiswa Ilmu Komputer yang lagi belajar membangun website dan aplikasi sederhana.</p>
+      <a href="#contact" class="btn">Hubungi Saya</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h3 class="section-title">Tentang Saya</h3>
+      <p>
+        Saya mahasiswa yang tertarik di bidang pemrograman, khususnya pengembangan
+        web dan aplikasi. Saat ini saya sedang memperdalam pemrograman berorientasi
+        objek, basis data, serta dasar-dasar front-end seperti HTML, CSS, dan JavaScript.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h3 class="section-title">Skill</h3>
+      <ul class="skill-list">
+        <li>HTML &amp; CSS</li>
+        <li>JavaScript Dasar</li>
+        <li>C#</li>
+        <li>PostgreSQL</li>
+        <li>Git &amp; GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h3 class="section-title">Kontak</h3>
+      <form id="contactForm" class="contact-form">
+        <input type="text" id="name" placeholder="Nama kamu" required>
+        <input type="email" id="email" placeholder="Email kamu" required>
+        <textarea id="message" placeholder="Pesan" rows="4" required></textarea>
+        <button type="submit" class="btn">Kirim Pesan</button>
+      </form>
+      <p id="formStatus" class="form-status"></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Jek. Dibuat untuk tugas slicing website.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
